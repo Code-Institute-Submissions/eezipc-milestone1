@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    }
+
+header {
+    margin: 0;
+     }
+
+
+
+
+.collapse .navbar-collapse {
+    background-color: white;
+}
+
+.jumbotron {
+    height: 100vh;
+
+    background: url('../images/peg.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.containerpadding {
+
+}
+
+.container .containerpadding {
+    padding-top: 20px;
+} 
+
