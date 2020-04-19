@@ -181,12 +181,9 @@ input {
     }
 }
 
-.fa-chevron-circle-right,  .fa-chevron-circle-left {
-    color: #41a3ca;
-    font-size: 50px;
+.fa-chevron-circle-right,  .fa-chevron-circle-left, h2 {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
 }
 
-
-.h3 {
-    color: red;
-}
