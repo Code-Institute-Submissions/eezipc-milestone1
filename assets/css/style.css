@@ -34,6 +34,7 @@ header {
   }
 }
 
+
 .jumbotron p:last-child {
   margin-bottom: 0;
 }
@@ -54,6 +55,18 @@ footer {
 footer p {
   margin-bottom: .25rem;
 }
+
+.container {
+
+}
+
+@media (max-width: 767px) {
+  .containersize{
+    height: 350px;
+  }
+ 
+}
+
 
 .container-text {
     
@@ -166,4 +179,14 @@ input {
         left: 0;
         text-align: center;
     }
+}
+
+.fa-chevron-circle-right,  .fa-chevron-circle-left {
+    color: #41a3ca;
+    font-size: 50px;
+}
+
+
+.h3 {
+    color: red;
 }
