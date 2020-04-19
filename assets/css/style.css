@@ -47,8 +47,8 @@ header {
 }
 
 footer {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 footer p {
@@ -153,3 +153,5 @@ input {
   background-repeat: no-repeat;
 
  }
+
+ 
