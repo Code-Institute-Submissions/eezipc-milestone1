@@ -1,30 +1,33 @@
+/* CSS FILE INFORMATION*/
+
+/* Google Fonts Link*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+/* Basic body settings*/
 body {
     font-family: 'Roboto', sans-serif;
     }
 
+/* Basic header settings*/
 header {
     margin: 0;
      }
 
-
+/* jumbotron settings*/
 .jumbotron {
     height: 100vh;
     background: url('../images/laundrettelegs.jpg') no-repeat bottom right fixed;
-   
-            -webkit-background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-            display: flex;
+    display: flex;
     align-items: start;
     justify-content: center;
     position: relative;
-  padding-top: 4rem;
-  padding-bottom: 3rem;
-  margin-bottom: 0;
-  
-  
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+   
   
 }
 @media (min-width: 768px) {
@@ -49,16 +52,7 @@ header {
 }
 
 
-
-
-footer {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
-footer p {
-  margin-bottom: .25rem;
-}
+/* Container settings*/
 
 .container .container-text {
 height: 20px;
@@ -95,13 +89,23 @@ height: 20px;
     
 }
 
+
+/* Basic footer settings*/
+footer {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+/* Signup Form settings*/
+
 .signup-form {
-  
-  
  
   padding: 50px;
   right: 40%
-  
 }
 
 
@@ -157,13 +161,16 @@ input {
   width: 100%;
 }
 
-
+/*  Top Navigation Bar settings*/
 
 .navbar-color-dark {
   background-color:  rgba(0,0,0, 0.8) !important; 
   background-image: none;
   background-repeat: no-repeat;
  }
+
+
+/*  Second Navigation Bar settings*/
 
  .navbar-color-blue {
       background-color:  #41a3ca !important; 
