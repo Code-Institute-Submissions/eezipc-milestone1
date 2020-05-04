@@ -65,10 +65,7 @@ height: 20px;
     height: 350px;
   }
 
- 
- 
 }
-
 
 .container-text {
   background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
@@ -84,7 +81,7 @@ height: 20px;
   width: 80%;
   padding: 20px;
   text-align: center;  
-  overflow: auto;  
+  overflow: auto;
 }
 
 
@@ -98,7 +95,7 @@ footer p {
   margin-bottom: .25rem;
 }
 
-
+/* Form settings*/
 
 .text-input {
   background-color: transparent;
@@ -191,13 +188,15 @@ input {
     font-weight: bold;
 }
 
-
+/* Hide large image for screen width*/
 
 @media screen and (max-width: 656px) { 
 
  .mainlogo img { display: none; }  
 
 }
+
+/* Hide large image for screen length*/
 
 @media screen and (max-height: 453px) { 
 
