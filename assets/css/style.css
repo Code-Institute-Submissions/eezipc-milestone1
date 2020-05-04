@@ -84,8 +84,7 @@ height: 20px;
   width: 80%;
   padding: 20px;
   text-align: center;  
-  
-  
+  overflow: auto;  
 }
 
 
@@ -99,7 +98,7 @@ footer p {
   margin-bottom: .25rem;
 }
 
-/* Signup Form settings*/
+
 
 .text-input {
   background-color: transparent;
@@ -194,7 +193,13 @@ input {
 
 
 
-@media screen and (max-width: 600px) { 
+@media screen and (max-width: 656px) { 
+
+ .mainlogo img { display: none; }  
+
+}
+
+@media screen and (max-height: 453px) { 
 
  .mainlogo img { display: none; }  
 
