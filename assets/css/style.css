@@ -27,9 +27,9 @@ header {
     padding-top: 4rem;
     padding-bottom: 3rem;
     margin-bottom: 0;
-   
-  
 }
+
+
 @media (min-width: 768px) {
   .jumbotron {
     padding-top: 8rem;
