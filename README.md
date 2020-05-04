@@ -32,9 +32,11 @@ There is an interactive Google Map on the "Find us" page that shows the exact lo
 
 ## Technologies Used
 
-This project uses HTML, Bootstrap and CSS.
+This project uses HTML, Bootstrap, CSS and Javascript.
 
 This is the link to Bootstrap. https://getbootstrap.com/
+This is the link to Jquery. https://jquery.com/
+
 
 ## Testing
 
@@ -53,6 +55,8 @@ The map function is visible and usable on all screen sizes.
 
 Tested all links on top and bottom of the page.
 Both navbars work on various screen sizes.
+Main image hides when screen gets to a specific size.
+Form & Prices container switches to an overflow automatically when screen gets to a specific size.
 
 ## Deployment
 
@@ -69,6 +73,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 I used a Bootstrap template obtained from here https://getbootstrap.com/docs/4.4/examples/album/
 I didnt use all of it and I added many extras but this template provided a great base to start from.
+I used a privacy policy template from here: https://gdpr.eu/privacy-notice/
+I used a terms policy template from here: https://termly.io/resources/templates/terms-and-conditions-template/
 
 
 ### Media
